@@ -44,7 +44,7 @@ def reduce_to_total(array, starting_point=0)
 end
 
 def reduce_to_all_true(array)
-
+  array.reduce{|sum, num| sum + num}
 end
 
 def reduce_to_any_true(array)
