@@ -44,7 +44,7 @@ def reduce_to_total(array, starting_point=0)
   new =[]
   i = starting_point
   while i < array.length do
-    sum = new.push(array[i] + array[i+1])
+    new.push(array[i] + array[i+1])
     i += 1
   end
   return new
