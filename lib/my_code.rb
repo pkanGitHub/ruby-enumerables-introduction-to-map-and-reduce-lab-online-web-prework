@@ -42,10 +42,10 @@ end
 def reduce_to_total(array, starting_point=0)
   # array.reduce(starting_point){|sum, num| sum + num}
   i = 0
-  sum = starting_point 
+  sum = starting_point
   while i < array.length do
     sum = sum + array[i]
-    i += 1 
+    i += 1
   end
   return sum
 end
