@@ -45,7 +45,7 @@ end
 
 def reduce_to_all_true(array)
   if
-    array.reduce{|str| str == truthy}
+    array.reduce{|i| i != false}
     return true
   else
     return false
