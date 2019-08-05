@@ -50,14 +50,16 @@ def reduce_to_total(array, starting_point=0)
   return sum
 end
 
-# def reduce_to_all_true(array)
-#   if
-#     array.reduce{|i| i != false}
-#     return true
-#   else
-#     return false
-#
-# end
+def reduce_to_all_true(array)
+  i = 1
+  sum = array[0]
+  while i < array.length do
+    sum = sum || array[i]
+    i += 1
+  end
+  return sum
+
+end
 
 def reduce_to_any_true(array)
 
