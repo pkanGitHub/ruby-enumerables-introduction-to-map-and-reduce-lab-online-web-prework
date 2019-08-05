@@ -67,5 +67,5 @@ def reduce_to_any_true(array)
     sum = sum || array[i]
     i += 1
   end
-  return sum
+  return !!sum
 end
