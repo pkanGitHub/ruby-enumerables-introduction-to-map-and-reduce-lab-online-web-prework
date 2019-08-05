@@ -18,7 +18,7 @@ def map_to_no_change(source_array)
   end
   return new
 end
- 
+
 def map_to_double(array)
   new = []
   i = 0
@@ -28,7 +28,7 @@ def map_to_double(array)
   end
   return new
 end
- 
+
 def map_to_square(array)
   new = []
   i = 0
