@@ -43,7 +43,7 @@ def reduce_to_total(array, starting_point=0)
   # array.reduce(starting_point){|sum, num| sum + num}
   new =[]
   while i < array.length do
-    new.push(starting_point){|sum, num| sum + num}
+    sum = new.push(array[i] + array[i+1])
     i += 1
   end
   return new
