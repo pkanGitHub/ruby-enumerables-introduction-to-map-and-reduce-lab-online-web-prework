@@ -54,7 +54,7 @@ def reduce_to_all_true(array)
   i = 1
   sum = array[0]
   while i < array.length do
-    sum = sum || array[i]
+    sum = sum && array[i]
     i += 1
   end
   return sum
